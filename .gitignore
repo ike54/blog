@@ -14,3 +14,7 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore controllers who have passwords
+/app/controllers/posts_controller.rb
+/app/controllers/comments_controller.rb
